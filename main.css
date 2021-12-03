@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    background:rgba(50,50,50,0.4);
+    backdrop-filter: blur(10px); 
+    position: fixed;
+    height: 10vh;
+    width: 100vw;
+    text-align:center;
+    color: rgb(228, 188, 240);
+    line-height:60px;
+    font-size: 20px;
+    z-index:1000;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: row;
+}
+/*#330030*/
+.mainclass{
+    background: linear-gradient(45deg, #330030, #170127);
+    height: 300vh;
+    width: 100vw;
+    color: white;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    letter-spacing:-0.025em;
+    font-weight:bolder;
+    margin-left: 32vw;
+    margin-top: 2vh;
+}
+.link{
+    margin-left: 4vw;
+}
+.contact{
+    height: 5vh;
+    width: 7vw;
+    margin-left: 15vw;
+    margin-top: 2.5vh;
+    border-radius: 0.5rem;
+    background-color: rgb(93, 56, 194);
+    border: blue;
+    color: rgb(228, 188, 240);
+}
+.mainclasssecond{
+    position: absolute;
+    top: 100vh;
+    background:rgba(50,50,50,0.2);
+    backdrop-filter: blur(100px); 
+    height: 80vh;
+    width: 100vw;
+    z-index:1;
+}
+.main_image{
+    height: 100vh;
+    width: 35vw;
+    position: absolute;
+    right: 10vw;
+    top: 3vh;
+}
+.mainclass_heading{
+    padding-top: 200px;
+    padding-left: 200px;
+    color: #00D9EF;
+}
+.mainclass_para{
+    color: #F4EEED;
+}
+.logo_pic{
+    position: absolute;
+    left: 120px;
+    top: 50px;
+    height: 50vh;
+}
+.mainclassthird{
+    position: absolute;
+    top: 180vh;
+    display: flex;
+    flex-direction: column;
+}
+.obs_row1{
+    padding-top: 10vh;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+.obs_row2{
+    height: 60vh;
+}
+.voln_row1{
+    height: 60vh;
+}
+.ob_pic{
+    height: 25vh;
+    position: absolute;
+    left: 200px;
+    border-radius: 20%;
+    box-shadow: #00D9EF  ;
+}
+.ob_name{
+    position: absolute;
+    top: 40vh;
+    left: 250px;
+    color: #00D9EF;
+    white-space: nowrap;
+}
+.ob_pos{
+    position: absolute;
+    top: 45vh;
+    left: 290px;
+    color: #00D9EF;
+    white-space: nowrap;
+}
