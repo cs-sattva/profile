@@ -46,14 +46,33 @@
     border: blue;
     color: rgb(228, 188, 240);
 }
+.btn{
+    text-decoration: none;
+    color: white;
+}
 .mainclasssecond{
     position: absolute;
     top: 100vh;
     background:rgba(50,50,50,0.2);
-    backdrop-filter: blur(100px); 
+    backdrop-filter: blur(500px); 
     height: 80vh;
     width: 100vw;
     z-index:1;
+}
+.mainclasssecond_heading{
+    padding-left: 50vw;
+    padding-top: 15vh;
+    color: #00D9EF;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.mainclasssecond_para{
+    padding-left: 50vw;
+    padding-top: 7vh;
+    color: #F4EEED;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
 }
 .main_image{
     height: 100vh;
@@ -69,49 +88,69 @@
 }
 .mainclass_para{
     color: #F4EEED;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    padding-left: 13vw;
+    padding-top: 4vh;
 }
 .logo_pic{
     position: absolute;
     left: 120px;
-    top: 50px;
-    height: 50vh;
+    top: 75px;
+    height: 60vh;
 }
 .mainclassthird{
     position: absolute;
     top: 180vh;
-    display: flex;
-    flex-direction: column;
+    height: 100vh;
 }
-.obs_row1{
-    padding-top: 10vh;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-}
-.obs_row2{
-    height: 60vh;
-}
-.voln_row1{
-    height: 60vh;
-}
-.ob_pic{
-    height: 25vh;
+.mainclassthird_heading{
     position: absolute;
-    left: 200px;
-    border-radius: 20%;
-    box-shadow: #00D9EF  ;
-}
-.ob_name{
-    position: absolute;
-    top: 40vh;
-    left: 250px;
+    top: 10vh;
+    left: 45vw;
     color: #00D9EF;
-    white-space: nowrap;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
-.ob_pos{
+.hori_1{
+    height: 0.4vh;
+    width: 37vw;
+    background: #00D9EF ;
     position: absolute;
-    top: 45vh;
-    left: 290px;
-    color: #00D9EF;
-    white-space: nowrap;
+    top: 14vh;
+    left: 6vw;
+}
+.hori_2{
+    height: 0.4vh;
+    width: 36vw;
+    background: #00D9EF ;
+    position: absolute;
+    top: 14vh;
+    left: 57.4vw;
+}
+.verti_1{
+    height: 100vh;
+    width: 0.2vw;
+    background: #00D9EF ;
+    position: absolute;
+    top: 14vh;
+    left: 6vw;
+}
+.verti_2{
+    height: 100vh;
+    width: 0.2vw;
+    background: #00D9EF ;
+    position: absolute;
+    top: 14vh;
+    left: 93.2vw;
+}
+.hori_3{
+    height: 0.4vh;
+    width: 87.4vw;
+    background: #00D9EF ;
+    position: absolute;
+    top: 114vh;
+    left: 6vw;
 }
