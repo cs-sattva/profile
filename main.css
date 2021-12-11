@@ -20,7 +20,7 @@
 /*#330030*/
 .mainclass{
     background: linear-gradient(45deg, #330030, #170127);
-    height: 300vh;
+    height: 700vh;
     width: 100vw;
     color: white;
 }
@@ -132,7 +132,7 @@
 }
 .verti_1{
     height: 100vh;
-    width: 0.2vw;
+    width: 0.15vw;
     background: #00D9EF ;
     position: absolute;
     top: 14vh;
@@ -140,11 +140,11 @@
 }
 .verti_2{
     height: 100vh;
-    width: 0.2vw;
+    width: 0.15vw;
     background: #00D9EF ;
     position: absolute;
     top: 14vh;
-    left: 93.2vw;
+    left: 93.3vw;
 }
 .hori_3{
     height: 0.4vh;
@@ -153,4 +153,106 @@
     position: absolute;
     top: 114vh;
     left: 6vw;
+}
+.events{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+    padding-left: 10vw;
+}
+.event{
+    height: 25vh;
+    width: 80vw;
+    background:rgba(50,50,50,0.2);
+    backdrop-filter: blur(800px); 
+    margin-top: 5vh;
+}
+.event_heading{
+    margin-top: 2vh;
+    margin-left: 2vw;
+    color: #00D9EF;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.event_para{
+    color: #F4EEED;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 4vw;
+    padding-top: 0.4vh;
+}
+.mainclassfourth{
+    display: flex;
+    flex-direction: column;
+}
+.mainclassfourth{
+    position: absolute;
+    top: 300vh;
+}
+.teammembers_heading{
+    position: absolute;
+    white-space: nowrap;
+    top: 10vh;
+    left: 36vw;
+    color: #00D9EF;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.horiz_1{
+    height: 0.4vh;
+    width: 28vw;
+    background: #00D9EF ;
+    position: absolute;
+    top: 14vh;
+    left: 5vw;
+}
+.horiz_2{
+    height: 0.4vh;
+    width: 30vw;
+    background: #00D9EF ;
+    position: absolute;
+    top: 14vh;
+    left: 64.4vw;
+}
+.team_member1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20vh;
+    padding-left: 5vw;
+}
+.team_member{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5vw;
+}
+.team_members{
+    margin-top: 9vh;
+    background:rgba(50,50,50,0.2);
+    backdrop-filter: blur(800px); 
+    height: 50vh;
+    width: 20vw;
+    margin-left: 2vw;
+    box-shadow: 1px 1px 1px 1px #F4EEED;
+}
+.mem_pic{
+    height: 30vh;
+    width: 30vh;
+    margin-left: 2.2vw;
+    margin-top: 2vh;
+}
+.name{
+    padding-left: 5vw;
+    padding-top: 2vh;
+    color: #F4EEED;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.post{
+    padding-left: 8vw;
+    padding-top: 2vh;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #F4EEED;
 }
